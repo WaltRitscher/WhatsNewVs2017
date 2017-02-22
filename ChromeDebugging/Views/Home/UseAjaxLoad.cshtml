@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "UseAjaxLoad";
+    Layout = "~/Views/Shared/_LayoutOther.cshtml";
+}
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+
+<h2>Use AjaxLoad</h2>
+
+<input type="button" id="loadContent" value="Load" />
+
+<div id="adContentDiv"></div>
+<script>
+	$("#loadContent").click(function () {
+
+		$("#adContentDiv").load("/AdContent.html");
+
+	});
+</script>
+
