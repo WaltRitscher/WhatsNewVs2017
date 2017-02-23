@@ -13,7 +13,7 @@ namespace BrokerageLib.Tests {
 		public void ReturnDate30DaysInFuture_WhenProposedDateFallsOnWeekday() {
 			// arrange
 			var pd = new SUT.PaymentSystem.PaymentDate();
-			DateTime sampleDate = DateTime.Parse("7/6/2011");
+			var sampleDate = DateTime.Parse("7/6/2011");
 			// act
 			var futureDate = pd.CalculateFuturePaymentDate(sampleDate);
 			// assert
@@ -26,7 +26,7 @@ namespace BrokerageLib.Tests {
 			// arrange
 			var pd = new SUT.PaymentSystem.PaymentDate();
 
-			DateTime sampleDate = DateTime.Parse("7/8/2011");
+			var sampleDate = DateTime.Parse("7/8/2011");
 
 			// act
 			var resultDateWhichShouldBeMonday = pd.CalculateFuturePaymentDate(sampleDate);
@@ -41,7 +41,7 @@ namespace BrokerageLib.Tests {
 			// arrange
 			var pd = new SUT.PaymentSystem.PaymentDate();
 
-			DateTime sampleDate = DateTime.Parse("7/7/2011");
+			var sampleDate = DateTime.Parse("7/7/2011");
 
 			// act
 			var resultDateWhichShouldBeMonday = pd.CalculateFuturePaymentDate(sampleDate);
