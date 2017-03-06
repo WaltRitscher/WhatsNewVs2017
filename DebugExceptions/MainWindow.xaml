@@ -1,0 +1,28 @@
+﻿<Window x:Class="DebugExceptions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DebugExceptions"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="350"
+        Width="525"
+        FontSize='18'>
+  <StackPanel Margin='40,0'>
+    <Button Content='Exception in Array'
+            Margin='5'
+            VerticalAlignment='Top'
+            Height='29'
+            Click='IndexExceptionButton_Click'
+            x:Name='IndexExceptionButton' />
+
+    <Button x:Name="DivideButton"
+            Content='Divide by Zero'
+            Margin='5,5,5.4,5'
+            Click="DivideButton_Click" />
+    <TextBlock x:Name="resultTextBlock"
+               HorizontalAlignment="Center" />
+  </StackPanel>
+</Window>
+
