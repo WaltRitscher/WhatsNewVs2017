@@ -1,0 +1,5 @@
+﻿C# 6.0 and the .NET 4.6 Framework
+Professional C# 6 and .NET Core 1.0
+ASP.NET MVC 5 with Bootstrap and Knockout
+Dependency Injection in .NET
+Writing High-Performance .NET Code
