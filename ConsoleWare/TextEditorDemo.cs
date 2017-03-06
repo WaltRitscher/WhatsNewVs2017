@@ -8,8 +8,7 @@ namespace ConsoleWare {
 		internal void SplitString() {
 			// split the string, when press enter.
 
-			string message = "A long example of rambling words.  " +
-				"Because I need a long string for this demonstration.";
+			string message = "A long example of rambling words. Because I need a long string for this demonstration.";
 		}
 
 		public void OutlineAdditions() {
