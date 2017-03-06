@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherLib", "PublisherLib\PublisherLib.csproj", "{D78E3406-CD24-4E95-83AC-C1519C770D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksellerWeb", "BooksellerWeb\BooksellerWeb.csproj", "{7038B60E-2F4C-4DA8-862A-B0AE044F02F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookSellerWpf", "BookSellerWpf\BookSellerWpf.csproj", "{AC3A2DF8-57E3-4EBE-BC4D-9B550527219C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D78E3406-CD24-4E95-83AC-C1519C770D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78E3406-CD24-4E95-83AC-C1519C770D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78E3406-CD24-4E95-83AC-C1519C770D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78E3406-CD24-4E95-83AC-C1519C770D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7038B60E-2F4C-4DA8-862A-B0AE044F02F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7038B60E-2F4C-4DA8-862A-B0AE044F02F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7038B60E-2F4C-4DA8-862A-B0AE044F02F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7038B60E-2F4C-4DA8-862A-B0AE044F02F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3A2DF8-57E3-4EBE-BC4D-9B550527219C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3A2DF8-57E3-4EBE-BC4D-9B550527219C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3A2DF8-57E3-4EBE-BC4D-9B550527219C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3A2DF8-57E3-4EBE-BC4D-9B550527219C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
