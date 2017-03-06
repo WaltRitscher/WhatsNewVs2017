@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace ConsoleWare {
 	class Program {
 		static void Main(string[] args) {
+
+      RunToDemo.RunTo();
 		}
 	}
 }

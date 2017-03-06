@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ConsoleWare {
 	class RunToDemo {
 
-		private void RunTo1() {
+		internal static void RunTo() {
 			decimal monthlyPayment;
 			decimal rate = 5.6M;
 
