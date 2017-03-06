@@ -8,7 +8,7 @@ namespace ConsoleWare {
 		internal void SplitString() {
 			// split the string, when press enter.
 
-			string message = "A long example of rambling words. Because I need a long string for this demonstration.";
+			var message = "A long example of rambling words. Because I need a long string for this demonstration.";
 		}
 
 		public void OutlineAdditions() {
@@ -22,7 +22,7 @@ namespace ConsoleWare {
 			// choose what happens when enter key is pressed.
 			// when autocompletion list is open
 
-			string result = String.Format("Change the price on the book '{0}' to {1:C}", bestSellingBook.Title, newPrice);
+			var result = String.Format("Change the price on the book '{0}' to {1:C}", bestSellingBook.Title, newPrice);
 
 			if (true)
 			{
