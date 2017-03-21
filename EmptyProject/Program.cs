@@ -27,7 +27,7 @@ namespace EmptyProject
 
       // https://www.linkedin.com/learning/visual-studio-2017-first-look?u=104
 
-      https://www.lynda.com/Visual-Studio-tutorials/Visual-Studio-2017-First-Look/577369-2.html
+      // https://www.lynda.com/Visual-Studio-tutorials/Visual-Studio-2017-First-Look/577369-2.html
     }
   }
 }
